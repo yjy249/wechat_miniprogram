@@ -1,0 +1,5 @@
+/**index.wxss**/
+
+.text-justify {
+  text-align: justify;
+}

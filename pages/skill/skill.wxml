@@ -1,0 +1,143 @@
+<scroll-view scroll-y class="scrollPage">
+<view>
+  <view class="cu-bar bg-white solid-bottom padding-top">
+    <view class="action">
+      <text class="cuIcon-title text-blue"></text>Python 编程语言
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-blue" style="width:{{loading?'85%':''}};">85%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-orange"></text>数据标注工具 LabelImg/Make Sense
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-orange" style="width:{{loading?'90%':''}};">90%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-green"></text>PyTorch 深度学习框架
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-green" style="width:{{loading?'80%':''}};">80%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-yellow"></text>YOLOv5 模型训练
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-yellow" style="width:{{loading?'89%':''}};">89%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-olive"></text>Linux 开发环境
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-olive" style="width:{{loading?'80%':''}};">80%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-cyan"></text>GitHub 管理工具
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-cyan" style="width:{{loading?'80%':''}};">80%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-purple"></text>海康摄像头视频流的读取与处理
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-purple" style="width:{{loading?'85%':''}};">85%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-pink"></text>Jetson TX2 嵌入式开发板
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-pink" style="width:{{loading?'70%':''}};">70%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-mauve"></text>Web 服务器的搭建与使用
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-mauve" style="width:{{loading?'65%':''}};">65%</view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-brown"></text>Bootstrap 前端框架（HTML5/CSS3/Javascript）
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-brown" style="width:{{loading?'70%':''}};">70%</view>
+    </view>
+  </view>
+</view>
+<view>
+  <view class="cu-bar bg-white solid-bottom">
+    <view class="action">
+      <text class="cuIcon-title text-mauve"></text>MySQL/Java
+    </view>
+  </view>
+  <view class="padding bg-white padding-style">
+    <view class="cu-progress round striped active">
+      <view class="bg-red" style="width:{{loading?'65%':''}};">65%</view>
+    </view>
+  </view>
+</view>
+</scroll-view>

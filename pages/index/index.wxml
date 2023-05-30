@@ -1,0 +1,64 @@
+<view class="cu-timeline">
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">北京诚志纪元科技有限公司</view>
+      <view class="text-df padding-bottom-xs">高速公路智能实时目标检测技术研究</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">目标检测</view>
+        <view class="cu-tag line-white">2022.12-至今</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">1.构建图片数据集，利用 labelImg、makesense 等标注工具进行标注，获取其标签信息；</view>
+        <view class="text-justify">2.需对标签信息进行格式转换，利用 YOLOv5 网络在 Pycharm 软件或者服务器上对数据集进行模型训练与测试；</view>
+        <view class="text-justify">3.将训练好的模型文件部署到嵌入式平台 NVIDIA Jetson TX2，模型可以在测试集上达到 96.6% 的准确率；</view>
+        <view class="text-justify">4.利用图像中目标的位置信息，结合单目测距方法，计算出目标到摄像头的距离；</view>
+        <view class="text-justify">5.搭建 Web 服务器平台，实现对高速公路异物的实时检测的远程访问。</view>
+      </view>
+    </view>   
+  </view>
+
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">无人机智能实时目标跟踪技术研究</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">目标跟踪</view>
+        <view class="cu-tag line-white">2022.09-至今</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">1.利用计算机视觉和深度学习算法，使能够自动识别、跟踪和定位空中的无人机目标；</view>
+        <view class="text-justify">2.为了训练和测试目标跟踪算法，收集了大量包含各种目标的图像和视频数据，涵盖了不同环境条件和场景，并经过标注和预处理，以便于算法的训练和评估；</view>
+        <view class="text-justify">3.开源代码实现了对目标的持续跟踪和定位，即使目标在飞行过程中出现遮挡、快速移动或形变等情况；</view>
+        <view class="text-justify">4.基于卡尔曼滤波器实现对目标在视频序列中的准确跟踪，该跟踪器的设计目标是实现对目标的位置和速度的实时估计，并具备一定的鲁棒性和准确性；</view>
+      </view>
+    </view>   
+  </view>
+ 
+  <view class="cu-item text-blue">
+    <view class="bg-gradual-blue content shadow">
+      <view class="text-df padding-bottom-xs">个人简历微信小程序</view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-blue">前端开发</view>
+        <view class="cu-tag line-white">2023.05</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view class="text-justify">1.项目概述： 个人简历微信小程序旨在提供一个简洁且个性化的方式展示个人简历，帮助更好地了解我的技能和项目经历；</view>
+        <view class="text-justify">2.职责： 使用微信小程序开发工具进行代码编写、调试和预览，利用微信小程序框架提供的组件和API，实现页面的动态渲染和交互功能；</view>
+        <view class="text-justify">3.技术实现： 使用HTML、CSS和JavaScript进行页面布局、样式定义和动画效果，通过接口获取数据，实现个人简历内容的动态展示；</view>
+        <view class="text-justify">4.学习和成长： 在项目中学到了微信小程序开发的技术和流程，还深入理解了用户体验的重要性；</view>
+      </view>
+    </view>   
+  </view>
+
+</view>
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
